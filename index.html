@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Página web de Perritos </title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>  
+        <!--Las siguients etiquetas son para encabezados--> 
+        <h1>Página de Mascotas</h1>
+        <h2>Esta es una página de perritos</h2>
+        <h3>Hecha por Isaura Aldaz Adorno</h3>
+
+        <!--Agregar imagen desde internet-->
+        <img srcset="https://www.purina.es/sites/default/files/2021-12/IMG_BannerDesktop_02Chihuahua_hero.jpg">
+        <br>
+        <!--Agregar imagen desde computadora-->
+        <img src="imagenes/imagen 1.jpg">
+
+        <!-- Listas ordenadas y desordenadas-->
+            <h3>Lista de Perritos</h3>
+            <p>3 cosas que los perros <strong>aman</strong></p>
+
+            <!--Lista Ordenada-->
+            <ol> 
+                <li>Dormir</li>
+                <li>Jugar</li>
+                <li>Comer</li>
+            </ol>
+
+        <!--Lista desordenada-->
+            <p>3 cosas que los perros <strong>odian</strong></p>
+
+            <ul>
+                <li>Picante</li>
+                <li>Bañarse</li>
+                <li>Cortarse las uñas</li>
+            </ul>
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver mas imagenes de perritos <a href=" https://www.google.com.mx/search?q=fotos+de+perritos+chihuahuas&hl=es-419&tbm=isch&sxsrf=AJOqlzXoElvty6CI0g-WTBeiuG71QVeSsg%3A1676066555581&source=hp&biw=1366&bih=624&ei=-77 tamY_yiIdrzkPIPxbS4yAU&iflsig=AK50M_UAAAAAY-bNCxhSQ3CYEFnFvEjaZmoy0TvaPpkF&ved=0ahUKEwi8jKe9-ov9AhXaOUQIHUUaDlkQ4dUDCAc&uact=5&oq=fotos+de+perritos+chihuahuas&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgcIABCABBAYOgcIIxDqAhAnOgQIIxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEAM6BggAEAgQHjoJCAAQgAQQChAYOgYIABAFEB5QzARY7V9grGRoBHAAeACAAeEBiAHHFpIBBzE2LjEwLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img" target="_blank">da click aqui</a></p>
+
+        <!--Formulario con botones de radio-->
+        <form>
+            <p>¿Tu perrito es cachorro o es adulto?</p>
+            <label>
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked> Cachorro 
+            </label>
+            <br>        <!--Separar-->
+            <label>
+                <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> Adulto 
+            </label>
+
+        <!--Formulario con casillas de verificacion-->
+            <p>¿Como es el caracter de perro?</p>
+            <label>
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad" checked> Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad"> Cariñoso
+            </label>
+            <br>
+            <label>
+                <input id="amigable" type="checkbox" value="amigable" name="personalidad"> Amigable
+            </label>
+
+
+        </form>
+
+        <footer>
+            <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+        </footer>
+
+    </body>
+</html>

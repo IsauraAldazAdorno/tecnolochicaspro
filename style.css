@@ -1,0 +1,29 @@
+body{
+    color: #711e5a;
+    /*Ponerle color al fondo*/
+    background-color: #fa2a73;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1{
+    color:#481a4d;
+    font-size: 50px;
+}
+
+h3{
+    color: #121d2c;
+}
+
+img{
+    width: 400px;  /* Ancho de imagen*/
+    height:200px ; /*Largo de imagen*/
+    padding: 20px; /*Separacion de img*/
+    margin: 20px;  /*Separacion hacia dentro*/
+
+}
+
+footer{
+    background-color: #ffb0a5;
+    padding:20px;
+    margin: 0px;
+}
